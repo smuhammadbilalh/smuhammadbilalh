@@ -55,8 +55,8 @@ def hero():
   <text x="110" y="104.5" font-family="{FONT}" font-size="12.5" font-weight="500" fill="#a3a3a3" letter-spacing=".3">Core Lead App Developer · Open to work</text>
 
   <text x="78" y="196" font-family="{FONT}" font-size="76" font-weight="800" letter-spacing="-3" fill="url(#tg)">Muhammad Bilal</text>
-  <text x="81" y="240" font-family="{FONT}" font-size="21" font-weight="400" fill="#a3a3a3" letter-spacing="-.2">I build university-scale mobile apps, offline-first desktop tools and the PHP backends behind them.</text>
-  <text x="81" y="268" font-family="{MONO}" font-size="13.5" fill="#737373">Gujrat, Pakistan  ·  MyUOG &amp; MyUOR official apps  ·  Kotlin Multiplatform  ·  .NET</text>
+  <text x="81" y="240" font-family="{FONT}" font-size="21" font-weight="400" fill="#a3a3a3" letter-spacing="-.2">I build university-scale mobile apps, hospital software and the backends behind them.</text>
+  <text x="81" y="268" font-family="{MONO}" font-size="13.5" fill="#737373">Gujrat, Pakistan  ·  MyUOG &amp; MyUOR  ·  Aslam Clinic Digital Care  ·  Kotlin Multiplatform  ·  .NET</text>
   {''.join(parts)}
   <rect x="0" y="{H-2}" width="{W}" height="2" fill="url(#line)"/>
 </g></svg>'''
@@ -115,6 +115,9 @@ def footer():
 if __name__ == "__main__":
     open(os.path.join(OUT, "banner.svg"), "w").write(hero())
     open(os.path.join(OUT, "footer.svg"), "w").write(footer())
+    card("aslam", "Aslam Clinic Digital Care — Hospital Ecosystem",
+         ["Enterprise-grade clinic platform I'm building end to end: patient site with QR check-in and a WhatsApp smart queue, a doctor-reviewed health wiki,", "a pharmacy store, and a Chatwoot deployment extended with FHIR so conversations, records and orders share one patient model. In active development."],
+         ["Chatwoot (extended)", "HL7 FHIR", "WhatsApp Business", "PHP", "PostgreSQL", "Docker"], "AC", "#2dd4bf", "aslam.clinic · wiki · store", stat="Lead developer  ·  In development", W=1216, H=250)
     card("myuog", "MyUOG — Official University of Gujrat App",
          ["Official campus app for students, faculty and applicants: results, attendance,", "fees, live bus tracking, admissions and push notifications."],
          ["Kotlin Multiplatform", "Jetpack Compose", "PHP", "Firebase"], "UG", "#60a5fa", "Google Play", "Core Lead App Developer  ·  10K+ installs")

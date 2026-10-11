@@ -16,6 +16,7 @@
 
 **Core Lead App Developer** behind the official apps of two Pakistani public universities, and an IT Specialist who likes software that works when the network doesn't.
 
+- **Healthcare, end to end.** Currently building **Aslam Clinic Digital Care**, an enterprise-grade hospital ecosystem: [aslam.clinic](https://aslam.clinic) (patient site, QR check-in, WhatsApp smart queue), [wiki.aslam.clinic](https://wiki.aslam.clinic) (doctor-reviewed health explainers) and [store.aslam.clinic](https://store.aslam.clinic) (pharmacy), tied together by a **Chatwoot** deployment extended with **HL7 FHIR** so chat, records and orders share one patient model.
 - **Mobile at university scale.** I lead development of **MyUOG** (University of Gujrat) and **MyUOR** (University of Rasul): Kotlin Multiplatform + Jetpack Compose clients, PHP services on top of the universities' management systems, and Firebase for auth, push and analytics.
 - **Offline-first by default.** Cached screens, local databases and background sync, so results and attendance load on an entry-level phone with one bar of signal.
 - **Native desktop & cross-platform.** WinUI 3 apps for Windows (SnapErase, CPOS) and .NET MAUI apps for Android, iOS and Windows.
@@ -26,6 +27,9 @@
 ## Featured work
 
 <table>
+  <tr>
+    <td colspan="2"><a href="https://aslam.clinic/"><img src="assets/card-aslam.svg" width="100%" alt="Aslam Clinic Digital Care — enterprise-grade hospital ecosystem: aslam.clinic, wiki.aslam.clinic, store.aslam.clinic. Chatwoot extended with FHIR. In development."/></a></td>
+  </tr>
   <tr>
     <td width="50%"><a href="https://play.google.com/store/apps/details?id=pk.edu.uog.app"><img src="assets/card-myuog.svg" width="100%" alt="MyUOG — Official University of Gujrat app. Kotlin Multiplatform, Jetpack Compose, PHP, Firebase. Core Lead App Developer."/></a></td>
     <td width="50%"><a href="https://play.google.com/store/apps/details?id=pk.edu.uorm.app"><img src="assets/card-myuor.svg" width="100%" alt="MyUOR — Official University of Rasul app. Kotlin Multiplatform, Jetpack Compose, PHP, Firebase. Core Lead App Developer."/></a></td>
@@ -44,7 +48,7 @@
   </tr>
 </table>
 
-<p align="center"><sub>Also live: <a href="https://smuhammadbilalh.github.io/ugraphics/">UGraphics</a> · <a href="https://smuhammadbilalh.github.io/TechCenter/">TechCenter</a> &nbsp;—&nbsp; the university apps are closed-source; their code lives in institutional repositories.</sub></p>
+<p align="center"><sub>Also live: <a href="https://aslam.clinic/">aslam.clinic</a> · <a href="https://wiki.aslam.clinic/">wiki.aslam.clinic</a> · <a href="https://store.aslam.clinic/">store.aslam.clinic</a> · <a href="https://smuhammadbilalh.github.io/ugraphics/">UGraphics</a> · <a href="https://smuhammadbilalh.github.io/TechCenter/">TechCenter</a> &nbsp;—&nbsp; the university apps and the clinic platform are closed-source; their code lives in institutional repositories.</sub></p>
 
 <br/>
 
@@ -62,6 +66,10 @@
 <img src="https://img.shields.io/badge/PHP-0a0a0a?style=for-the-badge&logo=php&logoColor=fafafa" alt="PHP"/>
 <img src="https://img.shields.io/badge/MySQL-0a0a0a?style=for-the-badge&logo=mysql&logoColor=fafafa" alt="MySQL"/>
 <img src="https://img.shields.io/badge/Firebase-0a0a0a?style=for-the-badge&logo=firebase&logoColor=fafafa" alt="Firebase"/>
+<img src="https://img.shields.io/badge/Chatwoot-0a0a0a?style=for-the-badge&logo=chatwoot&logoColor=fafafa" alt="Chatwoot"/>
+<img src="https://img.shields.io/badge/HL7%20FHIR-0a0a0a?style=for-the-badge&logoColor=fafafa" alt="HL7 FHIR"/>
+<img src="https://img.shields.io/badge/PostgreSQL-0a0a0a?style=for-the-badge&logo=postgresql&logoColor=fafafa" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/Docker-0a0a0a?style=for-the-badge&logo=docker&logoColor=fafafa" alt="Docker"/>
 <img src="https://img.shields.io/badge/REST%20APIs-0a0a0a?style=for-the-badge&logo=postman&logoColor=fafafa" alt="REST APIs"/>
 <img src="https://img.shields.io/badge/SQLite-0a0a0a?style=for-the-badge&logo=sqlite&logoColor=fafafa" alt="SQLite"/>
 <img src="https://img.shields.io/badge/ONNX%20Runtime-0a0a0a?style=for-the-badge&logo=onnx&logoColor=fafafa" alt="ONNX Runtime"/>
