@@ -156,17 +156,7 @@ var bilal = new Developer
   <img src="https://streak-stats.demolab.com?user=smuhammadbilalh&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=f5a623&currStreakLabel=58a6ff" alt="GitHub streak"/>
 </a>
 
-<br/><br/>
 
-<a href="https://github.com/smuhammadbilalh">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=smuhammadbilalh&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=f5a623&area=true&area_color=58a6ff" width="100%" alt="Contribution graph"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/smuhammadbilalh">
-  <img src="https://github-profile-trophy.vercel.app/?username=smuhammadbilalh&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies"/>
-</a>
 
 </div>
 
