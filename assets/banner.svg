@@ -1,76 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Muhammad Bilal — IT Specialist and .NET MAUI / WinUI 3 App Developer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1020"/>
-      <stop offset="55%" stop-color="#14243a"/>
-      <stop offset="100%" stop-color="#1b3a4f"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="50%" stop-color="#7b3fe4"/>
-      <stop offset="100%" stop-color="#f5a623"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7b3fe4" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#7b3fe4" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
-    </pattern>
-    <clipPath id="round"><rect width="1200" height="320" rx="16"/></clipPath>
-  </defs>
-
-  <g clip-path="url(#round)">
-    <rect width="1200" height="320" fill="url(#bg)"/>
-    <rect width="1200" height="320" fill="url(#grid)"/>
-
-    <circle cx="1010" cy="70" r="260" fill="url(#glow1)">
-      <animate attributeName="r" values="240;290;240" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="140" cy="300" r="220" fill="url(#glow2)">
-      <animate attributeName="r" values="200;250;200" dur="11s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- floating code glyphs -->
-    <g font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,monospace" fill="#8fb4ff" fill-opacity="0.22" font-size="20">
-      <text x="880" y="80">&lt;Grid&gt;</text>
-      <text x="1040" y="150">await</text>
-      <text x="930" y="240">.NET MAUI</text>
-      <text x="1080" y="290">WinUI 3</text>
-      <text x="790" y="190">var app =</text>
-      <text x="60" y="60">public sealed</text>
-      <text x="40" y="290">ONNX</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="7s" repeatCount="indefinite"/>
-    </g>
-
-    <!-- accent bar -->
-    <rect x="80" y="104" width="6" height="112" rx="3" fill="url(#accent)"/>
-
-    <!-- name -->
-    <text x="110" y="150" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1">Muhammad Bilal</text>
-
-    <!-- title -->
-    <text x="112" y="196" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#c9d1d9">IT Specialist <tspan fill="#58a6ff">•</tspan> .NET MAUI &amp; WinUI 3 App Developer</text>
-
-    <!-- chips -->
-    <g font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">
-      <rect x="112" y="222" width="72" height="28" rx="14" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.5"/>
-      <text x="148" y="241" text-anchor="middle" fill="#9fcbff">C#</text>
-      <rect x="192" y="222" width="110" height="28" rx="14" fill="#7b3fe4" fill-opacity="0.16" stroke="#9b6bf0" stroke-opacity="0.5"/>
-      <text x="247" y="241" text-anchor="middle" fill="#c9b3ff">.NET MAUI</text>
-      <rect x="310" y="222" width="92" height="28" rx="14" fill="#0078d4" fill-opacity="0.18" stroke="#4aa3ff" stroke-opacity="0.5"/>
-      <text x="356" y="241" text-anchor="middle" fill="#9fd0ff">WinUI 3</text>
-      <rect x="410" y="222" width="84" height="28" rx="14" fill="#5c2d91" fill-opacity="0.2" stroke="#a37fe0" stroke-opacity="0.5"/>
-      <text x="452" y="241" text-anchor="middle" fill="#d2bdfa">Blazor</text>
-      <rect x="502" y="222" width="132" height="28" rx="14" fill="#f5a623" fill-opacity="0.14" stroke="#f5a623" stroke-opacity="0.5"/>
-      <text x="568" y="241" text-anchor="middle" fill="#ffd38a">On-device AI</text>
-    </g>
-
-    <!-- bottom gradient line -->
-    <rect x="0" y="314" width="1200" height="6" fill="url(#accent)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Muhammad Bilal — Core Lead App Developer">
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#fff" stroke-opacity="0.035" stroke-width="1"/></pattern>
+  <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fafafa"/><stop offset="100%" stop-color="#a3a3a3"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="30%" stop-color="#60a5fa" stop-opacity=".9"/><stop offset="70%" stop-color="#a78bfa" stop-opacity=".9"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="spot1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="hsl(210,100%,85%)" stop-opacity=".10"/><stop offset="50%" stop-color="hsl(210,100%,55%)" stop-opacity=".03"/><stop offset="100%" stop-color="hsl(210,100%,45%)" stop-opacity="0"/></radialGradient>
+  <radialGradient id="spot2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="hsl(210,100%,85%)" stop-opacity=".06"/><stop offset="100%" stop-color="hsl(210,100%,45%)" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="1"/></linearGradient>
+  <clipPath id="r"><rect width="1200" height="400" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+  <rect width="1200" height="400" fill="#000"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect x="0" y="240" width="1200" height="160" fill="url(#fade)"/>
+  <g transform="rotate(-32 300 0)">
+    <ellipse cx="300" cy="-80" rx="280" ry="700" fill="url(#spot1)">
+      <animate attributeName="cx" values="300;380;300" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
-</svg>
+  <g transform="rotate(-22 520 0)">
+    <ellipse cx="520" cy="-120" rx="140" ry="620" fill="url(#spot2)">
+      <animate attributeName="cx" values="520;470;520" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <ellipse cx="1060" cy="420" rx="420" ry="220" fill="url(#spot2)"/>
+
+  <!-- status pill -->
+  <rect x="80" y="86" width="226" height="28" rx="14" fill="#0a0a0a" stroke="#262626"/>
+  <circle cx="98" cy="100" r="4" fill="#22c55e"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="110" y="104.5" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="500" fill="#a3a3a3" letter-spacing=".3">Core Lead App Developer · Open to work</text>
+
+  <text x="78" y="196" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3" fill="url(#tg)">Muhammad Bilal</text>
+  <text x="81" y="240" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#a3a3a3" letter-spacing="-.2">I build university-scale mobile apps, offline-first desktop tools and the PHP backends behind them.</text>
+  <text x="81" y="268" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="13.5" fill="#737373">Gujrat, Pakistan  ·  MyUOG &amp; MyUOR official apps  ·  Kotlin Multiplatform  ·  .NET</text>
+  <rect x="80" y="300" width="185" height="26" rx="13" fill="#0a0a0a" stroke="#262626"/><text x="172.5" y="317" text-anchor="middle" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d4d4d4">Kotlin Multiplatform</text><rect x="275" y="300" width="144" height="26" rx="13" fill="#0a0a0a" stroke="#262626"/><text x="347.0" y="317" text-anchor="middle" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d4d4d4">Jetpack Compose</text><rect x="429" y="300" width="96" height="26" rx="13" fill="#0a0a0a" stroke="#262626"/><text x="477.0" y="317" text-anchor="middle" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d4d4d4">.NET MAUI</text><rect x="535" y="300" width="80" height="26" rx="13" fill="#0a0a0a" stroke="#262626"/><text x="575.0" y="317" text-anchor="middle" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d4d4d4">WinUI 3</text><rect x="625" y="300" width="48" height="26" rx="13" fill="#0a0a0a" stroke="#262626"/><text x="649.0" y="317" text-anchor="middle" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d4d4d4">PHP</text><rect x="683" y="300" width="88" height="26" rx="13" fill="#0a0a0a" stroke="#262626"/><text x="727.0" y="317" text-anchor="middle" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d4d4d4">Firebase</text>
+  <rect x="0" y="398" width="1200" height="2" fill="url(#line)"/>
+</g></svg>
