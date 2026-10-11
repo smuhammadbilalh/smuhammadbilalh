@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Muhammad%20Bilal&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=IT%20Specialist%20%E2%80%A2%20.NET%20MAUI%20%26%20WinUI%203%20App%20Developer&descSize=20&descAlignY=58&animation=fadeIn" width="100%" alt="Muhammad Bilal banner"/>
+<img src="assets/banner.svg" width="100%" alt="Muhammad Bilal — IT Specialist & .NET MAUI / WinUI 3 App Developer"/>
 
 <a href="https://github.com/smuhammadbilalh"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=680&lines=Cross-platform+apps+with+.NET+MAUI;Modern+Windows+desktop+apps+with+WinUI+3;Offline-first%2C+privacy-friendly+tools;Websites+that+serve+real+communities" alt="Typing animation"/></a>
 
@@ -176,6 +176,6 @@ var bilal = new Developer
 
 💬 *Open to freelance projects, collaborations and interesting problems — especially anything .NET, Windows or offline-first.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer"/>
+<img src="assets/footer.svg" width="100%" alt="Thanks for visiting"/>
 
 </div>

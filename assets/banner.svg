@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Muhammad Bilal — IT Specialist and .NET MAUI / WinUI 3 App Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#14243a"/>
+      <stop offset="100%" stop-color="#1b3a4f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#7b3fe4"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b3fe4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7b3fe4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <circle cx="1010" cy="70" r="260" fill="url(#glow1)">
+      <animate attributeName="r" values="240;290;240" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="300" r="220" fill="url(#glow2)">
+      <animate attributeName="r" values="200;250;200" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- floating code glyphs -->
+    <g font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,monospace" fill="#8fb4ff" fill-opacity="0.22" font-size="20">
+      <text x="880" y="80">&lt;Grid&gt;</text>
+      <text x="1040" y="150">await</text>
+      <text x="930" y="240">.NET MAUI</text>
+      <text x="1080" y="290">WinUI 3</text>
+      <text x="790" y="190">var app =</text>
+      <text x="60" y="60">public sealed</text>
+      <text x="40" y="290">ONNX</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="7s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- accent bar -->
+    <rect x="80" y="104" width="6" height="112" rx="3" fill="url(#accent)"/>
+
+    <!-- name -->
+    <text x="110" y="150" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1">Muhammad Bilal</text>
+
+    <!-- title -->
+    <text x="112" y="196" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#c9d1d9">IT Specialist <tspan fill="#58a6ff">•</tspan> .NET MAUI &amp; WinUI 3 App Developer</text>
+
+    <!-- chips -->
+    <g font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">
+      <rect x="112" y="222" width="72" height="28" rx="14" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.5"/>
+      <text x="148" y="241" text-anchor="middle" fill="#9fcbff">C#</text>
+      <rect x="192" y="222" width="110" height="28" rx="14" fill="#7b3fe4" fill-opacity="0.16" stroke="#9b6bf0" stroke-opacity="0.5"/>
+      <text x="247" y="241" text-anchor="middle" fill="#c9b3ff">.NET MAUI</text>
+      <rect x="310" y="222" width="92" height="28" rx="14" fill="#0078d4" fill-opacity="0.18" stroke="#4aa3ff" stroke-opacity="0.5"/>
+      <text x="356" y="241" text-anchor="middle" fill="#9fd0ff">WinUI 3</text>
+      <rect x="410" y="222" width="84" height="28" rx="14" fill="#5c2d91" fill-opacity="0.2" stroke="#a37fe0" stroke-opacity="0.5"/>
+      <text x="452" y="241" text-anchor="middle" fill="#d2bdfa">Blazor</text>
+      <rect x="502" y="222" width="132" height="28" rx="14" fill="#f5a623" fill-opacity="0.14" stroke="#f5a623" stroke-opacity="0.5"/>
+      <text x="568" y="241" text-anchor="middle" fill="#ffd38a">On-device AI</text>
+    </g>
+
+    <!-- bottom gradient line -->
+    <rect x="0" y="314" width="1200" height="6" fill="url(#accent)"/>
+  </g>
+</svg>

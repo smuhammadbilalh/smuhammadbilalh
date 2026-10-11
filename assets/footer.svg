@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1b3a4f"/>
+      <stop offset="50%" stop-color="#14243a"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#7b3fe4"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,40 C200,90 400,0 600,40 C800,80 1000,10 1200,40 L1200,110 L0,110 Z" fill="url(#bg)"/>
+  <path d="M0,40 C200,90 400,0 600,40 C800,80 1000,10 1200,40" fill="none" stroke="url(#accent)" stroke-width="3"/>
+  <text x="600" y="88" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9" letter-spacing="2">THANKS FOR VISITING  •  LET'S BUILD SOMETHING GREAT</text>
+</svg>
